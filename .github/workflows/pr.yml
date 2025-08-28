@@ -2,7 +2,7 @@ name: PR - Pull Request Build
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
     types: [opened, synchronize, reopened]
 
 jobs:
